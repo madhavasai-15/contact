@@ -140,7 +140,7 @@ function mouseReleased(){
 
     //clicking on contact
     if(mouseX > width/1.06-width/20/2 && mouseX < width/1.06+width/20/2 && mouseY > height/12-height/16/2 && mouseY <  height/12+height/16/2){
-    
+      window.location.href = 'https://madhavasai-15.github.io/contact/';
     }
   }
 }
