@@ -97,8 +97,8 @@ function draw() {
     button.mousePressed(function(){
       var playerIndex = "Messages/" + responseCount;
       database.ref(playerIndex).set({
-        userName: nameInput.input.value(),
-        message: message.input.value()
+        message: message.input.value(),
+        userName: nameInput.input.value()
       }); 
       responseCount++;
       database.ref('/').update({
